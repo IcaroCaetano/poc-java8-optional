@@ -81,3 +81,5 @@ Para deixar explicito que o valor não pode ser nulo.
 #### 2. Optional.ofNullable(value)
 Quando for trabalhar com um valor que pode ser nulo. Use o ofNullable.
 
+#### 3. Optional.get()
+Retorna o valor contido no Optional. No entanto, se não for verificado se o valor nulo pode lançar uma NoSuchElementException.
