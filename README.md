@@ -83,3 +83,14 @@ Quando for trabalhar com um valor que pode ser nulo. Use o ofNullable.
 
 #### 3. Optional.get()
 Retorna o valor contido no Optional. No entanto, se não for verificado se o valor nulo pode lançar uma NoSuchElementException.
+
+#### 4. .orElse()
+Retorna um valor ou se vazio retorna um valor padrão.
+
+#### 5. .orElseGet()
+Retorna um valor ou se vazio chama um Supplier para buscar um valor.
+
+Esse modelo pode ser usado para encapsular uma chamada a um serviço externo ou banco de dados e retornar o valor.
+
+#### 6. .orElseThrow
+Retorna um valor ou se vazio lança uma exceção. 
