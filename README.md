@@ -72,3 +72,12 @@ poc-java8-optional/
             └── com/example/optional/
 ````
 
+### Conceitos & Anotações
+
+#### 1. Optional.of(value)
+Quando se houver certeza que o valor não será nulo, use o of.
+Para deixar explicito que o valor não pode ser nulo.
+
+#### 2. Optional.ofNullable(value)
+Quando for trabalhar com um valor que pode ser nulo. Use o ofNullable.
+
