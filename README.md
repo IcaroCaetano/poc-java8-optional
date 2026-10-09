@@ -1,5 +1,8 @@
 # POC Java 8 Optional
 
+Optional não elimina todos os NullPointerException automaticamente. Seu benefício é tornar a ausência de um valor 
+explícita e oferecer uma API para lidar com ela.
+
 ## Conteúdo
 
 ### 01 — Creating Optional
