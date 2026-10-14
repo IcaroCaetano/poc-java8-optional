@@ -30,9 +30,16 @@ public class Example06Filter {
 
         Optional<Integer> age = Optional.of(25);
 
-        Optional<Integer> adultAge =
-                age.filter(value -> value >= 18);
+        Optional<Integer> adultAge = age.filter(value -> value >= 18);
 
         System.out.println("Adult age: " + adultAge);
     }
+
+    /**
+     * Matching name: Optional[Icaro]
+     * Non-matching name: Optional.empty
+     * Empty Optional: Optional.empty
+     * Validation result: Name is too short
+     * Adult age: Optional[25]
+     */
 }
